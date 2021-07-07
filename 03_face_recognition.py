@@ -4,7 +4,7 @@ import os
 
 os.chdir("/home/pi/opencv-3.4.1/data/haarcascades")
 recognizer = cv2.face.LBPHFaceRecognizer_create()
-recognizer.read('/home/pi/FaceRecognition/trainer/trainer.yml')
+recognizer.read('/home/pi/FaceRecognition/trainer/trainer.yml') #hola
 cascadePath = "/home/pi/opencv-3.4.1/data/haarcascades/haarcascade_frontalface_default.xml"
 faceCascade = cv2.CascadeClassifier(cascadePath);
 
